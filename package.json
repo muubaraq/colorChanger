@@ -1,4 +1,5 @@
-{ "homepage: "https://muubaraq.github.io/colorChanger",
+{ 
+ "homepage": "https://muubaraq.github.io/colorChanger",
   "name": "colorchanger",
   "private": true,
   "version": "0.0.0",
