@@ -1,6 +1,10 @@
-import { useState } from 'react'        import reactLogo from './assets/react.svg'
+import { useState } from 'react'    
+import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'                          import colors from './colors'    function App() {
+import './App.css'                      
+import colors from './colors'    
+
+function App() {
   const [currentColorIndex, setCurrentColorIndex] = useState(0);
   const currentColor = colors[currentColorIndex];
   const changeColor = () => {
